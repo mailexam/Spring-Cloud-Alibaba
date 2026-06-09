@@ -1,0 +1,23 @@
+server:
+  port: ${HTTP_PORT:8080}
+  address: ${HTTP_HOST:127.0.0.1}
+
+spring:
+  application:
+    name: mail-service
+  cloud:
+    nacos:
+      discovery:
+        enabled: ${NACOS_DISCOVERY_ENABLED:false}
+        server-addr: ${NACOS_SERVER_ADDR:127.0.0.1:8848}
+  mail:
+    host: ${MAILEXAM_LOGIN}.mailexam.io
+    port: ${MAILEXAM_PORT:587}
+    username: ${MAILEXAM_LOGIN}
+    password: ${MAILEXAM_PASSWORD}
+    properties:
+      mail.smtp.auth: true
+      mail.smtp.starttls.enable: true
+
+mail:
+  from: ${MAIL_FROM:noreply@example.test}
