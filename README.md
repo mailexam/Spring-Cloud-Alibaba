@@ -137,7 +137,7 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 ## See also
 
 - [Mailexam Spring Cloud Alibaba guide (wiki)](https://wiki.mailexam.ru/en/examples/spring-cloud-alibaba/)
-- [Spring Boot reference implementation](https://github.com/mailexam/Spring) — same SMTP setup without Spring Cloud
+- [Spring Boot reference implementation](https://github.com/mailexam/Spring-Boot) — same SMTP setup without Spring Cloud
 - [Ktor reference implementation](https://github.com/mailexam/Ktor) — another JVM framework with Jakarta Mail
 - [Spring Cloud Alibaba documentation](https://sca.aliyun.com/)
 - [Mailexam API documentation](https://mailexam.io/api)
