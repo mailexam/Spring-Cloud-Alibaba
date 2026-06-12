@@ -141,3 +141,7 @@ After sending a message in a test, verify delivery via the [Mailexam API](https:
 - [Ktor reference implementation](https://github.com/mailexam/Ktor) — another JVM framework with Jakarta Mail
 - [Spring Cloud Alibaba documentation](https://sca.aliyun.com/)
 - [Mailexam API documentation](https://mailexam.io/api)
+
+## License
+
+Apache 2.0
